@@ -20,3 +20,4 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 #display table on the page
 fruits_to_show = my_fruit_list.loc[fruits_selected]
+
