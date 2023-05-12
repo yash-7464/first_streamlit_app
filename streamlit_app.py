@@ -46,3 +46,4 @@ my_data_rows = my_cur.fetchall()
 streamlit.header("The fruit load conatanis:")
 streamlit.dataframe(my_data_rows)
 
+my_cur.execute("insert into fruit_load_visit (from streamlit)")
